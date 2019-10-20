@@ -4,13 +4,8 @@ using UnityEngine;
 
 public class ObjInteraction : MonoBehaviour
 {
-    public GameObject currentInterObj = null;
-    private void OnTriggerEnter2D(Collider2D other)
+    void DoInteraction()
     {
-        if (other.CompareTag("interObject"))
-        {
-            Debug.Log(other.name);
-            currentInterObj = other.gameObject;
-        }
+
     }
 }

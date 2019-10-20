@@ -28,7 +28,7 @@ public class Parallax : MonoBehaviour
 
         for (int i = 0; i < backgrounds.Length; i++)
         {
-            parallaxScales[i] = 1 / backgrounds[i].position.z * -1;
+            parallaxScales[i] = 1 / backgrounds[i].position.z * -2;
             startingBackgroundPositions[i] = backgrounds[i].position; 
         }
     }
