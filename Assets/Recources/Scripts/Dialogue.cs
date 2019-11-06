@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class ObjInteraction : MonoBehaviour
+public abstract class Dialogue : MonoBehaviour
 {
+    public int dialogue_limit;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,8 +17,6 @@ public class ObjInteraction : MonoBehaviour
     {
 
     }
-    private void OnTriggerEnter2D(Collider2D other)
-    {
-        
-    }
+    //public abstract void speak();
+    public abstract void clear();
 }

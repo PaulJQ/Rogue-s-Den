@@ -18,11 +18,21 @@ public class enemyCheck : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.tag == "Player")
+        if (other.CompareTag("Player") && other.GetComponent<PlayerBehavior>().visable == true)
         {
-            enemyBehavior.target = collision.gameObject;
+            enemyBehavior.target = other.gameObject;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            if (other.gameObject == enemyBehavior.target)
+            {
+                enemyBehavior.target = null;
+            }
         }
     }
 }
