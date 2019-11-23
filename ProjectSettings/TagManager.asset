@@ -8,6 +8,8 @@ TagManager:
   - Hide
   - Slow
   - Death
+  - Drop
+  - Pickup
   layers:
   - Default
   - TransparentFX
