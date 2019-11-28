@@ -481,7 +481,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168291184}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.032535374, y: -1.2, z: -10}
+  m_LocalPosition: {x: 30.37, y: -1.2, z: -10}
   m_LocalScale: {x: 0.3674968, y: 0.23922919, z: 0.23922925}
   m_Children: []
   m_Father: {fileID: 0}
@@ -18995,15 +18995,6 @@ Tilemap:
       m_ObjectToInstantiate: {fileID: 0}
       m_TileFlags: 1
       m_ColliderType: 1
-  - first: {x: 15, y: 1, z: 0}
-    second:
-      m_TileIndex: 34
-      m_TileSpriteIndex: 32
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 1
-      m_ObjectToInstantiate: {fileID: 0}
-      m_TileFlags: 1
-      m_ColliderType: 1
   - first: {x: 51, y: 1, z: 0}
     second:
       m_TileIndex: 26
@@ -19254,7 +19245,7 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 4bb04ddaffabc4842b90912fb8eada65, type: 2}
   - m_RefCount: 43
     m_Data: {fileID: 11400000, guid: 8043f395a32dada4187ea478481f0102, type: 2}
-  - m_RefCount: 4
+  - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: 80981026aaaf4714d8a938629543be88, type: 2}
   - m_RefCount: 4
     m_Data: {fileID: 11400000, guid: 6b4abb3c3fc529b409677732fdd344db, type: 2}
@@ -19333,7 +19324,7 @@ Tilemap:
     m_Data: {fileID: 21300238, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
   - m_RefCount: 43
     m_Data: {fileID: 21300198, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
-  - m_RefCount: 4
+  - m_RefCount: 3
     m_Data: {fileID: 21300202, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 21300214, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
@@ -19348,7 +19339,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 21300188, guid: 261212b977f594d5dbc48631a5c1295c, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 1020
+  - m_RefCount: 1019
     m_Data:
       e00: 1
       e01: 0
@@ -19369,7 +19360,7 @@ Tilemap:
   m_TileColorArray:
   - m_RefCount: 0
     m_Data: {r: 3.291729e-39, g: 0, b: 21.71306, a: 1e-45}
-  - m_RefCount: 1020
+  - m_RefCount: 1019
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -20000,7 +19991,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 33.2, y: -2.91}
+  m_Offset: {x: 33.44, y: -1.9}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -20011,7 +20002,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.94, y: 0.97}
+  m_Size: {x: 0.94, y: 3.16}
   m_EdgeRadius: 0
 --- !u!60 &1054395072 stripped
 PolygonCollider2D:
@@ -20381,12 +20372,12 @@ PrefabInstance:
     - target: {fileID: 12991280360108773, guid: 3dcc50a039d27fa4b894657b6f3fcc1b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 30.27
       objectReference: {fileID: 0}
     - target: {fileID: 12991280360108773, guid: 3dcc50a039d27fa4b894657b6f3fcc1b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.23
+      value: -2.3
       objectReference: {fileID: 0}
     - target: {fileID: 12991280360108773, guid: 3dcc50a039d27fa4b894657b6f3fcc1b,
         type: 3}
